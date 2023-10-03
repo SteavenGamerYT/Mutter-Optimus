@@ -24,11 +24,11 @@ _merge_requests_to_use=('3304')
 
 ### IMPORTANT: Do no edit below this line unless you know what you're doing!
 
-pkgbase=mutter-nvidia
+pkgbase=mutter-optimus
 if [ -n "$_disable_docs" ]; then
-  pkgname=mutter-nvidia
+  pkgname=mutter-optimus
 else
-  pkgname=(mutter-nvidia mutter-nvidia-docs)
+  pkgname=(mutter-optimus mutter-optimus-docs)
 fi
 epoch=1
 pkgver=44.5
@@ -233,7 +233,7 @@ _pick() {
   done
 }
 
-package_mutter-nvidia() {
+package_mutter-optimus() {
   provides=(mutter libmutter-12.so)
   conflicts=(mutter)
   groups=(gnome)
@@ -246,7 +246,7 @@ package_mutter-nvidia() {
 }
 
 if ! [ -n "$_disable_docs" ]; then
-  package_mutter-nvidia-docs() {
+  package_mutter-optimus-docs() {
     provides=(mutter-docs)
     conflicts=(mutter-docs)
     pkgdesc+=" (documentation)"
