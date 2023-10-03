@@ -12,7 +12,7 @@ makepkg -si --skipinteg --skipchecksums --skippgpcheck
 ## What does it do?
 Applies https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/3304 to Mutter 44.5
 
-Fixes
+Fixes:
 
 https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/6221
 
