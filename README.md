@@ -1,5 +1,5 @@
 # Mutter-Optimus
- Fixs an issue that I had on Gnome for Years!
+Fixes an issue that I had on Gnome for years!
 
 ## Installtion Command
 ```sh
@@ -10,9 +10,9 @@ makepkg -si --skipinteg --skipchecksums --skippgpcheck
 ```
 
 ## What does it do?
-Applys https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/3304 early on top of Mutter 44.5
+Applies https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/3304 to Mutter 44.5
 
-Fixs
+Fixes
 
 https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/6221
 
