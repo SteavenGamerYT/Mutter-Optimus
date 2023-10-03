@@ -10,7 +10,7 @@ makepkg -si --skipinteg --skipchecksums --skippgpcheck
 ```
 
 ## What does it do?
-Applys https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/3304 on top of Mutter 44.5
+Applys https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/3304 early on top of Mutter 44.5
 
 Fixs
 
