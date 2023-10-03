@@ -1,5 +1,5 @@
 # Mutter-Optimus
- Fixs A issue that I had on Gnome for Years!
+ Fixs an issue that I had on Gnome for Years!
 
 ## Installtion Command
 ```sh
