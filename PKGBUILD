@@ -12,7 +12,7 @@
 ### PACKAGE OPTIONS
 ## MERGE REQUESTS SELECTION
 # Merge Requests List: ('579' '1441' '3113')
-_merge_requests_to_use=('3304')
+_merge_requests_to_use=('3304', '1441')
 
 ## Disable building the DOCS package (Enabled if not set)
 # Remember to unset this variable when producing .SRCINFO
@@ -74,7 +74,8 @@ if [ -n "$_enable_check" ]; then
 fi
 _commit=1511e6e1cdc8fa1a84f6fbbb169777ac26ba7f44  # tags/44.5^0
 source=("$pkgname::git+https://gitlab.gnome.org/GNOME/mutter.git#commit=$_commit"
-        'mr3304.patch')
+        'mr3304.patch'
+        'mr1441.patch')
 sha256sums=('SKIP')
 
 pkgver() {
@@ -179,6 +180,8 @@ prepare() {
   # Status: 2 & 3
   # Comment: Help GPU frequencies to scale up but not currently working on Wayland.
   # pick_mr '1441' 'mr1441.patch' 'patch'
+
+  pick_mr '1441' 'mr1441.patch' 'patch'
 
 }
 
